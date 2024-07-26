@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import EducationCard from "./EducationCard";
 
-const experiences = [];
 
 const Experience = () => {
   const [experiences, setExperiences] = useState([]);
